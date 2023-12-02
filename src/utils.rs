@@ -1,6 +1,6 @@
 use std::fs::File;
 use std::io;
-use std::io::{Read, Write};
+use std::io::{Read};
 
 pub fn read_file_as_str(file: &str) -> String {
     read_file_contents(file).unwrap()
